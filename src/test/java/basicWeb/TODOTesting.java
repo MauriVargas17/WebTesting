@@ -15,11 +15,11 @@ public class TODOTesting {
     Actions actions;
     @BeforeEach
     public void openBrowser(){
+        //ACLARACION! MI COMPUTADORA ES MAC OS, POR LO QUE LA RUTA Y EL DRIVER DEBEN SER MODIFICADOS
         System.setProperty("webdriver.chrome.driver","src/test/resources/chrome/chromedriver");
         chrome = new ChromeDriver();
         actions = new Actions(chrome);
         chrome.manage().window().maximize();
-        // implicit
         chrome.manage().timeouts().implicitlyWait(Duration.ofSeconds(25));
         chrome.get("http://todo.ly/");
     }
