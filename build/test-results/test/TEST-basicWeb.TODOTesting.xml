@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="basicWeb.TODOTesting" tests="1" skipped="0" failures="0" errors="0" timestamp="2023-10-12T19:37:15" hostname="Mauricios-MacBook-Pro.local" time="10.824">
+  <properties/>
+  <testcase name="verifyLoginTest()" classname="basicWeb.TODOTesting" time="10.824"/>
+  <system-out><![CDATA[ITEM ID: 4130249
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
